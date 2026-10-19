@@ -41,7 +41,10 @@ container.appendChild(div);
 
 
 const button = document.querySelector('#btn');
-button.onclick = () => alert("helllllii");
+
+btn.addEventListener("click", function (e) {
+  e.target.style.background = "blue";
+});
 
 
 
